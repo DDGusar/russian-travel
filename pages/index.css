@@ -1,2 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/font.css);
+
+@import url(../blocks/page/page.css);
+
+/* lead import */
+@import url(../blocks/lead/lead.css);
