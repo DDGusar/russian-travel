@@ -3,5 +3,23 @@
 
 @import url(../blocks/page/page.css);
 
+/* header import */
+@import url(../blocks/header/header.css);
+
 /* lead import */
 @import url(../blocks/lead/lead.css);
+
+/* intro import */
+@import url(../blocks/intro/intro.css);
+
+/* photo-grid import */
+@import url(../blocks/photo-grid/photo-grid.css);
+
+/* places import */
+@import url(../blocks/places/places.css);
+
+/* cover import */
+@import url(../blocks/cover/cover.css);
+
+/* footer import */
+@import url(../blocks/footer/footer.css);
