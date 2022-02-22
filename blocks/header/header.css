@@ -4,46 +4,9 @@
   padding: 16px 16px 48px;
 }
 
-.header__lang {
-  list-style-type: none;
-  /* margin: 0; */
-  padding: 0;
-}
-
-.header__lang-list {
-  display: inline;
-  margin-left: 18px;
-}
-
-.header__lang-link {
-  text-decoration: none;
-  color: white;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 20px;
-}
-
-.header__lang-link_underline {
-  text-decoration-line: underline;
-}
-
-.header__logo {
-  width: 142px;
-  height: 42px;
-}
-
 @media screen and (min-width: 768px) {
   .header {
     padding: 28px 24px 48px;
-  }
-  .header__logo {
-    width: 176px;
-    height: 52px;
-  }
-  .header__lang-link {
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
   }
 }
 
