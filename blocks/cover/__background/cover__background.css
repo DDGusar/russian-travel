@@ -4,7 +4,7 @@
   background-size: 100% auto;
   background-repeat: no-repeat;
   width: 100%;
-  height: 62.5vw;
+  min-height: 62.5vw;
   margin: auto;
   box-sizing: border-box;
   position: relative;
@@ -21,6 +21,7 @@
   bottom: 0;
   right: 0;
   content: "";
+  transition: opacity 1s linear;
 }
 
 .cover__background:hover::before {
@@ -29,8 +30,7 @@
 
 @media screen and (min-width: 1280px) {
   .cover__background {
-    width: 1184px;
-    height: 720px;
-    margin: auto;
+    min-width: 1184px;
+    min-height: 720px;
   }
 }
