@@ -6,31 +6,13 @@
   text-align: center;
   text-decoration: none;
   color: #ffffff;
-  /* padding-right: 16px;
-  padding-left: 16px; */
-  /* max-width: 288px; */
+  max-width: 288px;
 }
 
 @media screen and (min-width: 768px) {
   .cover__subtitle {
     font-size: 18px;
     line-height: 22px;
-    /* padding-right: 204px;
-    padding-left: 204px; */
-    /* width: auto; */
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .cover__subtitle {
-    /* padding-right: 332px;
-    padding-left: 332px; */
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .cover__subtitle {
-    /* padding-right: 412px;
-    padding-left: 412px; */
+    max-width: 360px;
   }
 }
