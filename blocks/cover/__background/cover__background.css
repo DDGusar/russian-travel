@@ -1,10 +1,15 @@
 .cover__background {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  /* display: block; */
   background-image: url(../../../images/cover-trains.jpg);
   background-size: 100% auto;
   background-repeat: no-repeat;
   width: 100%;
   min-height: 62.5vw;
+  /* max-height: 740px; */
   margin: auto;
   box-sizing: border-box;
   position: relative;
@@ -22,6 +27,7 @@
   right: 0;
   content: "";
   transition: opacity 1s linear;
+  max-height: 740px;
 }
 
 .cover__background:hover::before {
@@ -30,7 +36,7 @@
 
 @media screen and (min-width: 1280px) {
   .cover__background {
-    min-width: 1184px;
-    min-height: 720px;
+    max-width: 1184px;
+    max-height: 740px;
   }
 }
