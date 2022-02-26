@@ -12,5 +12,4 @@
 - файловая структура по БЭМ
 - Mobile first web design
 
-github pages
-https://ddgusar.github.io/russian-travel/index.html
+[github pages](https://ddgusar.github.io/russian-travel/index.html)
